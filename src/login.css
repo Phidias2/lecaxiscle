@@ -1,0 +1,94 @@
+
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card1 {
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #623ce6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Poppins&display=swap');
+.boxer {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #623ce6, #626ce6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+
+  
+
+  
+  h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  label {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+  
