@@ -11,7 +11,7 @@ import Coupon from './Pages/Coupon.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    // element: <Accueil />
+    element: <Login />
   },
   {
     path: "/login",
